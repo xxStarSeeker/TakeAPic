@@ -1,0 +1,262 @@
+body{
+
+    background-color:rgb(250, 230, 250);
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    padding: 15px;
+}
+
+
+nav{
+    position: sticky; 
+    top: 0;                 /* Stick to the top */
+    z-index: 1000;  
+  
+}
+
+
+
+.about{
+   color:rgb(15, 7, 77);
+    padding-top:50px;
+
+}
+
+.logo{
+    display:inline;
+    padding-top: 40px;
+}
+
+.fa {
+ 
+  text-align: center;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Product Sans', sans-serif; /* Font for headings */
+    color: #ffffff;                          /* Darker color for headings */
+}
+
+h1 {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+
+}
+
+h1 {
+    display: inline;
+    padding:15px;
+   
+    font-size: 2em;                     /* Size for h1 */
+    font-weight: 700;                     /* Bold */
+}
+
+
+header{
+    background-color: rgba(186, 1, 102, 0.771);
+    padding:0px;
+    margin:0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #39023a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+#videoContainer{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: white;
+     /* Outer border */
+    border-radius: 4px;     /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    width: 400px;            /* Fixed width for Polaroid */
+    height: auto;            /* Auto height */
+    padding: 10px;           /* Padding around the video */
+    position: relative;      /* For positioning the caption */
+    margin: 20px;  
+    padding-bottom: 120px;          /* Spacing around the container */
+
+   
+}
+
+#video{
+      max-width: 400px;         /* Responsive video width */
+    max-height: 400px;        /* Responsive video height */
+    border-radius: 5px;      /* Slightly rounded corners for the video */
+}
+
+/* Snapshot Button*/
+
+#buttonContainer{
+ 
+    display:inline-grid;
+}
+
+#snapshot{
+  
+    padding: 12px;
+    background-color: rgb(245, 244, 242);
+    border-radius: 30px;
+    border-color: rgb(219, 216, 216);
+    border-style:solid;
+    margin: 30px;
+}
+
+#snapshot  .fa-camera{
+    font-size: 30px;
+    
+
+}
+
+#snapshot  .fa-camera:hover{
+    font-size: 30px;
+    color:white;
+    background-color: rgb(189, 57, 57);
+    transition-delay: 0.1s;
+    
+}
+
+canvas{
+    display:none;
+}
+
+#snapshot:hover{
+    color: #ffffff;
+      background-color: rgb(189, 57, 57);
+    transition-delay: 0.1s;
+ 
+}
+
+footer{
+
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom:3px;
+     background-color: rgba(4, 12, 101, 0.771);
+    
+}
+
+footer p{
+    
+    text-align:end;
+    padding-right: 12px;
+     
+}
+
+#contactNav{
+
+    margin: 30px;
+  
+}
+
+#contactNav .fa{
+    
+     
+    padding: 12px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 40px;
+    text-decoration: none;
+    
+    
+
+}
+
+ .fa-github{
+    
+    color:#111;
+ 
+
+}
+
+.fa-github:hover{
+
+    color:white;
+     transition-delay: 0.1s;
+
+}
+
+
+.fa-linkedin{
+
+    color:#0077B5;
+    
+}
+
+.fa-linkedin:hover{
+
+    color:#ffff;
+     transition-delay: 0.1s;
+  
+}
+
+
+.fa-linkedin{
+    color:#0077B5;
+    
+  
+}
+
+.fa-linkedin:hover{
+    color:#ffff;
+     transition-delay: 0.1s;
+}
+
+
+.fa-at{
+
+    color:#0d1f6e;  
+}
+
+.fa-at:hover{
+
+    color:#ffffff;  
+    transition-delay: 0.1s;
+}
+
+
+
+.fa-link{
+
+    color:#58585b;  
+}
+
+.fa-link:hover{
+
+    color:#ffffff;  
+    transition-delay: 0.1s;
+}
+
+
+
+
+
+
